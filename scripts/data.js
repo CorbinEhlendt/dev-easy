@@ -1,7 +1,7 @@
 const golfGames = [
   {
-    fact: "1",
-    author: "1",
+    fact: "test",
+    author: "test",
     
   },
   {
