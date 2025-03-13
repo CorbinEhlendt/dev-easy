@@ -26,7 +26,8 @@ $(function () {
   } else {
     $('#randomFact').text("No facts available.");
   }
-
+  
+  // Vic
   function displayFacts(factsArray) {
   const container = document.getElementById("justFacts");
   container.innerHTML = "";
@@ -38,13 +39,13 @@ $(function () {
       container.appendChild(factElement);
     });
   }
-  
   document.getElementById('search').addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase();
-    const filter = facts.filter(fact => fact.fact.toLowerCase().includes(searchTerm));
-    renderFacts(filter);
+    const filtered = randomFacts.filter(fact => fact.fact.toLowerCase().includes(searchTerm));
+    displayFacts(filtered);
   });
 
+  
  const likeButtons = document.getElementsByClassName('btn btn-primary');
 
   
