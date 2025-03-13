@@ -8,7 +8,7 @@ $(function () {
           <h2 class="card-title"> ${randomFacts[index].fact} </h2>
           <div class="card-body">${randomFacts[index].username}</div>
           <div class="card-footer">
-            <button class="btn btn-primary">game link</button>
+            <button class="btn btn-primary" id="linkButton>❤️LikeButton❤️</button>
           </div>
         </div>
       </div>
@@ -44,4 +44,15 @@ $(function () {
     const filter = facts.filter(fact => fact.fact.toLowerCase().includes(searchTerm));
     renderFacts(filter);
   });
+
+  const likeButton = document.getElementById('likeButton');
+
+        
+        likeButton.addEventListener('click', function() {
+            if (likeButton.textContent === 'Like') {
+                likeButton.textContent = 'Unlike';
+            } else {
+                likeButton.textContent = 'Like';
+            }
+        });
 });
