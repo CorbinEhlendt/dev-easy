@@ -8,7 +8,7 @@ $(function () {
           <h2 class="card-title"> ${randomFacts[index].fact} </h2>
           <div class="card-body">${randomFacts[index].username}</div>
           <div class="card-footer">
-            <button class="btn btn-primary">❤️LikeButton❤️</button>
+            <button class="btn btn-primary">❤️</button>
           </div>
         </div>
       </div>
