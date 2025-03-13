@@ -1,1 +1,9 @@
-
+#randomFactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjust height as needed */
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
