@@ -46,7 +46,7 @@ $(function () {
   });
 
   
- /*const likeButtons = document.getElementsByClassName('btn btn-primary');
+ const likeButtons = document.getElementsByClassName('btn btn-primary');
 
   
   for (let button of likeButtons) {
@@ -57,22 +57,7 @@ $(function () {
         button.textContent = 'Like';
       }
     });
-  }*/
+  }
 
-  const likeButtons = document.getElementsByClassName('btn btn-primary');
-            for (let button of likeButtons) {
-                button.addEventListener('click', function () {
-                    if (button.textContent.includes('❤️')) {
-                        button.textContent = 'Unlike';
-                        moveToLikedArea(button); 
-                    } else {
-                        button.textContent = '❤️';
-                    }
-                });
-            }
 
-            function moveToLikedArea(button) {
-                const likedArea = document.getElementById('likedButtons');
-                likedArea.appendChild(button); 
-            }
 });
