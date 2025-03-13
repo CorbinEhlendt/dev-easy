@@ -1,3 +1,5 @@
+$(function () {
+  console.log("ready!");
 const randomFacts = [
   {
     fact: "My random fact is that I have two brothers",
