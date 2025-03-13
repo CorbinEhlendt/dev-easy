@@ -53,9 +53,9 @@ $(function () {
     button.addEventListener('click', function() {
       if (button.textContent.includes('Like')) {
         button.textContent = 'Unlike';
-      } else {
+      } /*else {
         button.textContent = 'Like';
-      }
+      }*/
     });
   }
 
