@@ -45,14 +45,17 @@ $(function () {
     renderFacts(filter);
   });
 
-  const likeButton = document.getElementByClassName('btn btn-primary');
+ const likeButtons = document.getElementsByClassName('btn btn-primary');
 
-        
-        likeButton.addEventListener('click', function() {
-            if (likeButton.textContent === 'Like') {
-                likeButton.textContent = 'Unlike';
-            } else {
-                likeButton.textContent = 'Like';
-            }
-        });
+  
+  for (let button of likeButtons) {
+    button.addEventListener('click', function() {
+      if (button.textContent.includes('Like')) {
+        button.textContent = 'Unlike';
+      } else {
+        button.textContent = 'Like';
+      }
+    });
+  }
+});
 });
