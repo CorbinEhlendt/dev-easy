@@ -1,4 +1,4 @@
-const golfGames = [
+const randomFacts = [
   {
     fact: "test",
     author: "test",
