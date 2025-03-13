@@ -1,143 +1,134 @@
 const randomFacts = [
   {
-    fact: "test",
-    author: "test",
+    fact: "My random fact is that I have two brothers",
+    username: "ReedWillis",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "My fav color is purple.",
+    username: "RichieJY",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I like to swim",
+    username: "beastcarp1",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I broke my finger",
+    username: "JaxonTheCritic",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "My name is Victor, and I'm ambidextrous.",
+    username: "VicLove25",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I can say my alphabet backwards",
+    username: "Olivia-Sharpston",
   },
   {
-    fact: "",
-    author: "",
+    fact: "I am not famous",
+    username: "CoreyBut",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I was born in Louisiana",
+    username: "tatumduthu",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I have never had a Peanut Butter and Jelly Sandwich!",
+    username: "Kaden-Trousdale",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I am allergic to cats",
+    username: "dgoodwin-maker",
    
   },
   {
-    fact: "",
-    author: "",
+    fact: "I like trains.",
+    username: "SSenecal01",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I know the secret identity of beastcarp1",
+    username: "Dwells2003",
     
   },
    {
-    fact: "",
-    author: "",
+    fact: "I have a dog",
+    username: "Matthewwisee",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I hate UNA parking",
+    username: "jacobfielder",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I have 3 dogs",
+    useranme: "mandrews3",
     
   },
    {
-    fact: "",
-    author: "",
+    fact: "I'm adopted from China :D",
+    username: "carlycopley",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I used to have an orange Hummer H3",
+    username: "ccantrell2",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I play on the rugby team",
+    username: "carsonkerr",
     
   },
    {
-    fact: "",
-    author: "",
+    fact: "UNA basketball sold the bag",
+    username: "gageb3",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "The Great Wall of China is 13,000 miles long",
+    username: "CorbinEhlendt",
     
   },
   {
-    fact: "",
-    author: "",
+    fact: "I hate javascript.",
+    username: "hnguyen1995",
     
   },
    {
-    fact: "",
-    author: "",
+    fact: "I love the Bible verse Romans 5:8!",
+    username: "llemoine1230",
     
   },
    {
-    fact: "",
-    author: "",
+    fact: "I love running.",
+    username: "ehb2004",
     
   },
    {
-    fact: "",
-    author: "",
+    fact: "🦭🦭",
+    username: "Jinxler",
     
   },
    {
-    fact: "",
-    author: "",
+    fact: "I have eaten 1 pound of ground beef every day for the last 6 months.",
+    username: "gshew24",
     
   },
    {
-    fact: "",
-    author: "",
+    fact: "Still very less parking space in UNA",
+    username: "ArunArdor",
     
-  },
-   {
-    fact: "",
-    author: "",
-    
-  },
-   {
-    fact: "",
-    author: "",
-    
-  },
+  }
+
   
 
 ];
