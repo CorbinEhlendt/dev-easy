@@ -26,5 +26,22 @@ $(function () {
   } else {
     $('#randomFact').text("No facts available.");
   }
+
+  function displayFacts(factsArray) {
+  const container = document.getElementById("factsContainer");
+  container.innerHTML = "";
+
+    factsArray.forEach(fact => {
+      const factElement = document.createElement("div");
+      factElement.classList.add("fact-item");
+      factElement.innerHTML = `<p>${fact.fact}</p>`;
+      container.appendChild(factElement);
+    });
+  }
   
+  document.getElementById('search').addEventListener('input', function() {
+    const searchTerm = this.value.toLowerCase();
+    const filter = facts.filter(fact => fact.fact.toLowerCase().includes(searchTerm));
+    renderFacts(filter);
+  });
 });
