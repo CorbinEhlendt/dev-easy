@@ -28,7 +28,7 @@ $(function () {
   }
 
   function displayFacts(factsArray) {
-  const container = document.getElementById("factsContainer");
+  const container = document.getElementById("justFacts");
   container.innerHTML = "";
 
     factsArray.forEach(fact => {
