@@ -8,7 +8,9 @@ $(function () {
           <h2 class="card-title"> ${randomFacts[index].fact} </h2>
           <div class="card-body">${randomFacts[index].username}</div>
           <div class="card-footer">
-            <button class="btn btn-primary">game link</button>
+           <button id="likeButton" onclick="incrementLikes()">Like</button>
+            <span id="likeCount">0</span> Likes
+            //<button class="btn btn-primary">game link</button>
           </div>
         </div>
       </div>
