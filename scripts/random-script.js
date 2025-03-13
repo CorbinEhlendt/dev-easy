@@ -51,7 +51,7 @@ $(function () {
   
   for (let button of likeButtons) {
     button.addEventListener('click', function() {
-      if (button.textContent.includes('Like')) {
+      if (button.textContent.includes('❤️')) {
         button.textContent = 'Unlike';
       } /*else {
         button.textContent = 'Like';
