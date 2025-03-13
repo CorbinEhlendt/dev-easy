@@ -14,4 +14,17 @@ $(function () {
       </div>
       `);
   });
+
+  function getRandomFact(arr) {
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    return arr[randomIndex];
+  }
+
+  if (randomFacts.length > 0) {
+    const randomObject = getRandomFact(randomFacts);
+    $('#randomFact').text(randomObject.fact);
+  } else {
+    $('#randomFact').text("No facts available.");
+  }
+  
 });
