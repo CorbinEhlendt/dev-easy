@@ -34,12 +34,19 @@ $(function () {
   container.innerHTML = "";
 
     factsArray.forEach(fact => {
-      const factElement = document.createElement("div");
-      factElement.classList.add("fact-item");
-      factElement.innerHTML = `<p>${fact.fact}</p>`;
-      container.appendChild(factElement);
+      container.innerHTML += `
+        <div class="col-sm-5 mx-auto mt-5">
+          <div class="card">
+            <h2 class="card-title"> ${fact.fact} </h2>
+            <div class="card-body">${fact.username}</div>
+            <div class="card-footer">
+              <button class="btn btn-primary">❤️</button>
+            </div>
+          </div>
+        </div>
+      `;
     });
-  }
+    
   document.getElementById('search').addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase();
     const filtered = randomFacts.filter(fact => fact.fact.toLowerCase().includes(searchTerm));
